@@ -12,7 +12,7 @@ public class RandomName {
         StringBuilder sb = new StringBuilder();
         Random random = new Random();
         for (int i = 0; i < 5; i++) {
-            sb.insert(i, letters.get(random.nextInt(63)));
+            sb.insert(i, letters.get(random.nextInt(62)));
         }
         return sb.toString();
     }
